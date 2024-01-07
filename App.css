@@ -1,0 +1,677 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.background-image {
+  background-image: url('https://hellowestmichigan.com/wp-content/uploads/2018/12/Cindy-Internship-Training.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.logo img {
+  height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 2;
+}
+
+ul li {
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.right-options {
+  margin-left: auto;
+}
+
+.content {
+  text-align: center;
+  color: #000;
+  margin-top: 50px;
+}
+
+/* App.css */
+/* ... (existing styles) */
+
+.additional-content {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 240px;
+  margin-bottom: 40px; /* Adjust the margin as needed */
+}
+
+.image-container {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.additional-content img {
+  border-radius: 20px;
+}
+
+.additional-content .info {
+  display: flex;
+  flex-direction: column;
+  margin-left:200px;
+  margin-right:200px;
+}
+
+.additional-content h1 {
+  margin-bottom: 50px; /* Adjust the margin as needed */
+}
+.heading-h1{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin: 0; 
+    line-height: 1.2; 
+  
+}
+p{
+  font-size: 22px;
+  margin:1rem;
+}
+.search-button {
+  height: 70px;
+  width:300px;
+  border-radius: 20px;
+  background-color: blue;
+  color:white;
+  font-weight:bold;
+  font-size: 22px;
+  margin-left:60px;
+}
+/* app.css */
+
+.container {
+  background-color: #fff;  /* Set your background color */
+  height: 100vh;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+  color:#000;
+}
+
+.image-container {
+  margin-right: 150px;
+  border-radius: 20px;
+}
+img{
+  border-radius: 20px;
+}
+.text-content {
+  max-width: 600px;
+}
+
+.text-content h1 {
+  color: #000;
+  font-size:50px;
+  margin-top:10px;
+  margin-bottom: 50px;
+}
+
+.text-content p {
+  color: #000;
+  font-size:26px;
+  margin-top:20px;
+  line-gap-override: 2px;
+  line-height-step: 5px;
+}
+.select-choice {
+  margin-top: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select{
+  font-size: 36px;
+  margin-left: 10px;
+}
+option{
+  font-size: 30px;
+}
+.select-choice p {
+  margin-right: 10px;
+  font-size: 40px;
+}
+.navigate-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: blue;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-size: 24px;
+  margin-left:800px;
+}
+
+
+/* Internships.css */
+
+.internships-container {
+  padding: 20px;
+}
+
+.internships-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.internships-options{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size:36px;
+}
+.intern-h1{
+  font-size: 36px;
+  color: black;
+  text-align: center; 
+  margin: 0; 
+  line-height: 1.2; 
+}
+
+.internship-item {
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 0px solid #fff;
+  border-radius: 5px;
+}
+
+.internship-item img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.internship-item p {
+  padding: 14px;
+  text-align: center;
+}
+.scholarnships-container {
+  padding: 20px;
+}
+
+.scholarnships-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.scholarship-item {
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 0px solid #ddd;
+  border-radius: 5px;
+}
+
+.scholarship-item img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.scholarship-item p {
+  padding: 10px;
+  text-align: center;
+}
+
+.register{
+  max-width: 978px;
+  width: 100vw;
+  margin-top:50px;
+  margin-left:300px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: white;
+}
+
+.register span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
+
+
+.event-form { 
+  margin-bottom: 20px; 
+} 
+
+.event-form h2 { 
+  margin-bottom: 10px; 
+  color: #007bff; 
+} 
+
+.event-form p { 
+  font-size: 1.2rem; 
+  color: #1403f6; 
+} 
+
+.event-form input { 
+  padding: 8px; 
+  font-size: 1rem; 
+  margin-right: 10px; 
+} 
+
+.create-btn { 
+  padding: 8px 16px; 
+  background-color: #ff4081; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  font-size: 1rem; 
+  cursor: pointer; 
+  transition: background-color 0.2s; 
+} 
+
+.create-btn:hover { 
+  background-color: #ff267f; 
+} 
+
+.event-list { 
+  margin-top: 20px; 
+} 
+
+.event-cards { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+} 
+
+.event-card { 
+  width: 300px; 
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 8px; 
+  margin: 10px; 
+  padding: 10px; 
+  cursor: pointer; 
+  transition: transform 0.2s, box-shadow 0.2s; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+
+.event-card:hover { 
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px rgba(10, 50, 6, 0.2); 
+} 
+
+.event-card-header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 10px; 
+} 
+
+.event-date { 
+  font-size: 1rem; 
+  color: #f07809; 
+} 
+
+.event-actions { 
+  display: flex; 
+} 
+
+.update-btn, 
+.delete-btn { 
+  padding: 8px 12px; 
+  margin-left: 5px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  font-size: 0.9rem; 
+  cursor: pointer; 
+  transition: background-color 0.2s; 
+} 
+
+.update-btn:hover, 
+.delete-btn:hover { 
+  background-color: #0056b3; 
+} 
+
+.event-card-body { 
+  padding-bottom: 10px; 
+} 
+
+.event-title { 
+  font-size: 1.5rem; 
+  color: #fd0000; 
+} 
+
+.selected { 
+  background-color: #ff4081 !important; 
+  color: white; 
+} 
+
+.event-marked { 
+  background-color: #ff4081; 
+  color: white; 
+}
+
+
+.react-calendar { 
+  width: 600px; 
+  height: 300px;
+  background-color: cyan;
+  background: rgba(255, 255, 255, 0.9); 
+  border: 1px solid #ccc; 
+  font-family: Arial, Helvetica, sans-serif; 
+  line-height: 1.125em; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 15px; 
+  padding: 10px; 
+  transition: background-color 0.2s; 
+} 
+
+.react-calendar--doubleView { 
+  width: 100%; 
+} 
+
+.react-calendar--doubleView .react-calendar__viewContainer { 
+  display: flex; 
+  margin: -0.5em; 
+} 
+
+.react-calendar--doubleView .react-calendar__viewContainer>* { 
+  width: 50%; 
+  margin: 0.5em; 
+} 
+
+.react-calendar, 
+.react-calendar *, 
+.react-calendar *:before, 
+.react-calendar *:after { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+} 
+
+.react-calendar button { 
+  margin: 0; 
+  border: 0; 
+  outline: none; 
+} 
+
+.react-calendar button:enabled:hover { 
+  cursor: pointer; 
+} 
+
+.react-calendar__navigation { 
+  display: flex; 
+  height: 44px; 
+  margin-bottom: 1em; 
+} 
+
+.react-calendar__navigation button { 
+  min-width: 44px; 
+  background: none; 
+} 
+
+.react-calendar__navigation button:disabled { 
+  background-color: #f0f0f0; 
+} 
+
+.react-calendar__navigation button:enabled:hover, 
+.react-calendar__navigation button:enabled:focus { 
+  background-color: #e6e6e6; 
+} 
+
+.react-calendar__month-view__weekdays { 
+  text-align: center; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  font-size: 0.8rem; 
+} 
+
+.react-calendar__month-view__weekdays__weekday { 
+  padding: 0.5em; 
+} 
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 0.75em; 
+  font-weight: bold; 
+} 
+
+.react-calendar__month-view__days__day--weekend { 
+  color: #d10000; 
+} 
+
+.react-calendar__month-view__days__day--neighboringMonth { 
+  color: #757575; 
+} 
+
+.react-calendar__year-view .react-calendar__tile, 
+.react-calendar__decade-view .react-calendar__tile, 
+.react-calendar__century-view .react-calendar__tile { 
+  padding: 2em 0.5em; 
+} 
+
+.react-calendar__tile { 
+  max-width: 100%; 
+  padding: 10px 6.6667px; 
+  background: none; 
+  text-align: center; 
+  line-height: 16px; 
+} 
+
+.react-calendar__tile:disabled { 
+  background-color: #f0f0f0; 
+} 
+
+.react-calendar__tile:enabled:hover, 
+.react-calendar__tile:enabled:focus { 
+  background-color: #e6e6e6; 
+} 
+
+.react-calendar__tile--now { 
+  background: #ffff76; 
+} 
+
+.react-calendar__tile--now:enabled:hover, 
+.react-calendar__tile--now:enabled:focus { 
+  background: #ffffa9; 
+} 
+
+.react-calendar__tile--hasActive { 
+  background: #76baff; 
+} 
+
+.react-calendar__tile--hasActive:enabled:hover, 
+.react-calendar__tile--hasActive:enabled:focus { 
+  background: #a9d4ff; 
+} 
+
+.react-calendar__tile--active { 
+  background: #007bff; 
+  color: white; 
+} 
+
+.react-calendar__tile--active:enabled:hover, 
+.react-calendar__tile--active:enabled:focus { 
+  background: #0056b3; 
+} 
+
+.react-calendar--selectRange .react-calendar__tile--hover { 
+  background-color: #e6e6e6; 
+} 
+
+.container { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: flex-start; 
+  margin-top: 2rem; 
+} 
+
+.calendar-container { 
+  flex: 1; 
+  max-width: 500px; 
+  margin-right: 2rem; 
+} 
+
+.event-container { 
+  flex: 1; 
+  max-width: 500px; 
+} 
+
+@media screen and (max-width: 768px) { 
+  .container { 
+      flex-direction: column; 
+  } 
+
+  .calendar-container, 
+  .event-container { 
+      max-width: 100%; 
+      margin-right: 0; 
+      margin-bottom: 2rem; 
+  } 
+} 
+
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f5f7fa; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+.app { 
+  text-align: center; 
+  margin: 20px; 
+} 
+
+.calendar { 
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
+  color: black; 
+} 
