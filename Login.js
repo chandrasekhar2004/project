@@ -11,6 +11,11 @@ const Login = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
 
+  const handleForgotPassword = () => {
+    // Navigate to the /forget route with the email parameter
+    navigate(`/forgot/${email}`);
+    //navigate('/forget');
+  };
   const handleLogin = async () => {
     try {
       const response = await fetch('http://localhost:5000/login', {
@@ -66,9 +71,10 @@ const Login = () => {
             <label>
               <input type='checkbox' />Remember me
             </label>
-            <a href='/' style={{ color: 'black' }}>
-              Forgot password?
-            </a>
+            <a href={`/forgot/${email}`} onClick={handleForgotPassword} style={{ color: 'black' }}>
+  Forgot password?
+</a>
+
           </RememberForgot>
           
           <LoginButton onClick={handleLogin}>Login</LoginButton>
